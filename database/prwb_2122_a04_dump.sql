@@ -154,7 +154,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES (1,'boverhaegen@epfc.eu','Boris Verhaegen','Computer Scientist','56ce92d1de4f05017cf03d6cd514d6d1','2021-10-13 12:04:07','1984-04-13','admin'),(2,'bepenelle@epfc.eu','Benoît Penelle','Project Inventor','56ce92d1de4f05017cf03d6cd514d6d1','2021-10-26 09:11:03','1968-05-01','user'),(3,'xapigeolet@epfc.eu','Xavier Pigeolet','System Administrator','56ce92d1de4f05017cf03d6cd514d6d1','2021-10-26 09:20:52','1995-05-26','user');
+INSERT INTO `user` VALUES (1,'bob@epfc.eu','Boris Bob','Computer Scientist','56ce92d1de4f05017cf03d6cd514d6d1','2021-10-13 12:04:07','1984-04-13','admin'),(2,'bepe@epfc.eu','Benoît bobby','Project Inventor','56ce92d1de4f05017cf03d6cd514d6d1','2021-10-26 09:11:03','1968-05-01','user'),(3,'xav@epfc.eu','Xavier pigso','System Administrator','56ce92d1de4f05017cf03d6cd514d6d1','2021-10-26 09:20:52','1995-05-26','user');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 
