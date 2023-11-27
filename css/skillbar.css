@@ -1,0 +1,38 @@
+/*input[type='range'] {  */
+/*    -webkit-appearance: none;  */
+/*    background-color: limegreen;*/
+/*    height: 10px;*/
+/*    overflow: visible;*/
+/*    width: 300px;*/
+/*    position: relative;*/
+/*    border-radius: 3px;*/
+/*  }  */
+/*  */
+/*  input[type='range']::-webkit-slider-thumb {  */
+/*    -webkit-appearance: none;  */
+/*    background-color: hotpink;*/
+/*    box-shadow: 1px 1px 8px pink;  */
+/*    width: 20px;  */
+/*    height: 20px;*/
+/*    border-radius: 50%;*/
+/*    position: relative;*/
+/*    z-index: 100;*/
+/*  } */
+/*  */
+/*  input[type='range']::-webkit-slider-thumb:before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: 100%;*/
+/*    left: 40%;*/
+/*    width: 10%;*/
+/*    height: 200px;*/
+/*    display: block;*/
+/*    background: red;*/
+/*    z-index: -10;*/
+/*    box-shadow: 0 0 10px darkred;*/
+/*    opacity: .1;*/
+/*  }*/
+/*  */
+/*   input[type='range']:hover::-webkit-slider-thumb:before {*/
+/*    opacity: 1;*/
+/*  }*/

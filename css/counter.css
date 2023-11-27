@@ -1,0 +1,37 @@
+/*!* The position of the parent is made relative so */
+/*   that absolutely positioned elements take their location from this *!*/
+/*.charcounter {*/
+/*    position: relative;*/
+/*    width: 350px;*/
+/*    height: 100px;*/
+/*}*/
+/*   */
+/*  !* Make both the counter div and the textarea inside the */
+/*     div bigger and show up on top of each other by placing*/
+/*     them on top left corner with absolute positioning *!*/
+/*.charcounter * {*/
+/*    width: 350px;*/
+/*    height: 100px;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    background: transparent;*/
+/*}*/
+/*   */
+/*  !* Modify the counter div's font to show up in the middle*/
+/*     and with bigger letters *!*/
+/*.charcounter div {*/
+/*    color: silver;*/
+/*    font-family: Arial;*/
+/*    font-size: 550%;*/
+/*    font-weight: bold;*/
+/*    text-align: center;*/
+/*    line-height: 100px;*/
+/*    vertical-align: middle;*/
+/*    opacity: 0.5;*/
+/*}*/
+/*   */
+/*  !* Finally, we want the counter to change color when it's negative *!*/
+/*.charcounter div.negative {*/
+/*    color: red;*/
+/*}*/
